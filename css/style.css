@@ -236,11 +236,50 @@ main img{
     vertical-align: middle;
 }
 
-.form:last-child{
+#Testimonials .form:last-child{
     padding-bottom: 60px;
 }
 
+/* Benefits */
+#Benefits h2{
+    color: var(--bg-white);
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+.form-box{
+    background-color: var(--bg-white);
+    color: var(--bg-section);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#Benefits a{
+    background-color: var(--bg-section);
+    color: var(--bg-white);
+    padding: 8px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+#Benefits h1{
+    font-size: 50px;
+    padding: 30px 0px 30px 30px;
+}
+
+#Benefits h3{
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+#Benefits p{
+    padding: 40px 30px 40px 30px;
+}
+
+.p30-left-bot{
+    padding: 0px 0px 30px 30px;
+}
 
 
 
@@ -335,6 +374,14 @@ main img{
     .Figure-text{
         width: 70%;
     }
+    .fb-flex{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .form-box{
+        width: calc((100% / 2) - 20px);
+        gap:20px;
+    }
 }
 
 @media screen and (min-width:992px){
@@ -369,6 +416,10 @@ main img{
         position: relative;
         top: 180px;
         height: 480px;
+    }
+    .form-box{
+        width:calc((100% / 3) - 20px);
+        gap:20px;
     }
 }
 
