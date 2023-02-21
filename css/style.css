@@ -303,19 +303,18 @@ main img{
     width: 200px;
     height: 200px;
     margin: 0 auto;
-    overflow: hidden;
-    border-radius: 50%;
+    position: relative;
 }
 
 .pop-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .about-us-img{
     padding-top: 40px;
-    position: relative;
 }
 
 .icon-big{
@@ -323,7 +322,7 @@ main img{
     color: var(--bg-section);
     position: absolute;
     top: -20px;
-    right: 80px;
+    right: 0px;
 }
 
 #About-Us h3{
@@ -331,6 +330,7 @@ main img{
     color: var(--bg-section);
     text-align: left;
     padding-bottom: 40px;
+    padding-top: 25px;
 }
 
 #About-Us a{
@@ -346,15 +346,68 @@ main img{
     padding-right: 10px;
 }
 
+/* Free */
+#Free{
+    color: var(--bg-white);
+    padding: 60px 0px 0px 0px;
+}
 
+#Free h3{
+    text-align: center;
+}
 
+#Free h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px 40px 0px;
+}
 
+#Free h1{
+    font-size: 50px;
+    color: var(--orange);
+    text-align: center;
+}
 
+#Free p{
+    text-align: center;
+    padding: 40px 0px 80px 0px;
+}
 
+#Free a{
+    padding: 30px 100px;
+    color: var(--bg-section);
+    background-color: var(--bg-white);
+    border-radius: 40px;
+}
 
+#Free span{
+    text-decoration: underline;
+}
 
+.center{
+   text-align: center; 
+}
 
+#Free .p70-top{
+    padding-top: 70px;
+}
 
+/* Footer */
+
+footer{
+    background-color: var(--bg-footer);
+}
+
+footer p{
+    text-align: center;
+    color: var(--bg-white);
+    padding: 40px 0px;
+}
+
+footer span{
+    color: var(--bg-section);
+    text-decoration: underline;
+}
 
 
 
